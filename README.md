@@ -7,7 +7,6 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -52,7 +51,7 @@ It is a simple LD code and it is free to use. But please cite me if it contribut
    
 2. Input your simulation parameters as required by the program prompts.
 
-Acknowledgements
+## Acknowledgements
 The code was written by Zihan Tan with contributions from collaborators Vania Calandrini, Jan K.G. Dhont, and Gerhard Nägele.
 
 
