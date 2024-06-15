@@ -53,7 +53,7 @@ It is a simple LD code and it is free to use. But please cite me if it contribut
 2. Input your simulation parameters as required by the program prompts.
 
 ## Acknowledgements
-Zihan Tan wrote the code, with contributions from collaborators Vania Calandrini, Jan K.G. Dhont, and Gerhard Nägele.
+Zihan Tan wrote the code.
 
 ## Analysis
 Inside the "LD_code_SALR" folder, there are the scripts for cluster analysis to compute: cluster size distribution (CSD), coordination number (z_b) and its distribution, local hexagonal order parameter |q_6^2| and its distribution and average. Those are developed based partially on my former colleagues' knowledge.
