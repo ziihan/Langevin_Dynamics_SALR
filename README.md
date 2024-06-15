@@ -44,7 +44,7 @@ make -f Makefile
 Using GCC:
 make -f Makefile_gcc
 
-Usage
+## Usage
 It is a simple LD code and it is free to use. But please cite me if it contributes/inspires your research.
 
 1. Run the executable generated after compilation
@@ -54,8 +54,6 @@ It is a simple LD code and it is free to use. But please cite me if it contribut
 
 ## Acknowledgements
 Zihan Tan wrote the code, with contributions from collaborators Vania Calandrini, Jan K.G. Dhont, and Gerhard Nägele.
-
-
 
 ## Cluster analysis
 Inside the "LD_code_SALR" folder, there are the scripts for cluster analysis to compute: cluster size distribution (CSD), coordination number (z_b) and its distribution, local hexagonal order parameter |q_6^2| and its distribution and average. Those are developed based partially on my former colleagues' knowledge.
