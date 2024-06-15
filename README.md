@@ -54,3 +54,8 @@ It is a simple LD code and it is free to use. But please cite me if it contribut
 
 Acknowledgements
 The code was written by Zihan Tan with contributions from collaborators Vania Calandrini, Jan K.G. Dhont, and Gerhard Nägele.
+
+
+
+## Cluster analysis scripts for computing: 
+cluster size distribution (CSD), coordination number (z_b) and its distribution, local hexagonal order parameter |q_6^2| and its distribution and average.
