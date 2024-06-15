@@ -58,4 +58,4 @@ Zihan Tan wrote the code, with contributions from collaborators Vania Calandrini
 
 
 ## Cluster analysis
-Outside of "LD_code_SALR" are the scripts for cluster analysis to compute: cluster size distribution (CSD), coordination number (z_b) and its distribution, local hexagonal order parameter |q_6^2| and its distribution and average. Those are developed based partially on my former colleagues' knowledge.
+Inside the "LD_code_SALR" folder, there are the scripts for cluster analysis to compute: cluster size distribution (CSD), coordination number (z_b) and its distribution, local hexagonal order parameter |q_6^2| and its distribution and average. Those are developed based partially on my former colleagues' knowledge.
