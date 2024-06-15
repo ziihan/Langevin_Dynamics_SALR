@@ -1,0 +1,34 @@
+CC	= icc
+CLINKER = icc
+
+CFLAGS      =   -Wall -O3 -mcmodel=medium -ipo 
+LIBS        = -lm
+DEPEND= makedepend
+
+SRC     = writepdb.c md.c bd.c bdloop.c readdat.c system.c init.c random.c msd.c restart.c rdf_sqcs.c
+OBJS    = writepdb.o md.o bd.o bdloop.o readdat.o system.o init.o random.o msd.o restart.o rdf_sqcs.o
+EXECS   = bd_md
+
+default: bd_md
+
+all: $(EXECS)
+
+bd_md:$(OBJS)
+	$(CLINKER) -qopenmp $(OPTFLAGS) -o bd_md $(OBJS) $(LIBS)
+
+clean:
+	/bin/rm -f *.o *~ $(EXECS)
+
+.c.o:
+	$(CC) -qopenmp $(CFLAGS) -c $*.c
+
+md.o: system.h
+init.o: system.h
+bd.o: system.h
+bdloop.o: system.h
+random.o: system.h
+readdat.o: system.h
+system.o: system.h
+rdf_sqcs.o: system.h
+msd.o: system.h
+writepdb.o: system.h
