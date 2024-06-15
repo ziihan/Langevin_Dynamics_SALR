@@ -8,7 +8,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
-- [Analysis](#clusteranalysis)
+- [Analysis](#analysis)
 
 ## Introduction
 
