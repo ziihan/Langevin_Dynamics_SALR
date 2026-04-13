@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This C code uses Langevin Dynamics (under-damped Brownian Dynamics) to explore the spatial-temporal correlations of Brownian particles interacting via competitive short-ranged attractive and long-ranged repulsive potentials. Specifically, the interaction potential comprises the 100-50 (Lennard-Jones-like) Mie potential and the relatively long-ranged Yukawa (screened Coulomb) potential.
+The main C code here uses Langevin Dynamics (under-damped Brownian Dynamics) to explore the spatial-temporal correlations of Brownian particles interacting via competitive short-ranged attractive and long-ranged repulsive potentials. Specifically, the interaction potential comprises the 100-50 (Lennard-Jones-like) Mie potential and the relatively long-ranged Yukawa (screened Coulomb) potential. The publication: Zihan Tan, Vania Calandrini, Jan K. G. Dhont and Gerhard Nägele, Quasi-two-dimensional dispersions of Brownian particles with competitive interactions: phase behavior and structural properties, Soft Matter, 2024, 20, 9528-9546 (https://doi.org/10.1039/D4SM00736K), is associated with the codes and scripts described/included here.
 
 ## Features
 
